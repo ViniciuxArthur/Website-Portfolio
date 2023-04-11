@@ -81,6 +81,7 @@ img {
   height: 30px;
   border-radius: 7px;
 }
+
 .instagram-logo{
   width: 20px;
   height: 20px;
@@ -110,6 +111,7 @@ img {
   height: 30px;
   border-radius: 7px;
 }
+
 .spotify-logo{
   width: 20px;
   height: 20px;
@@ -130,7 +132,6 @@ img {
 
 .email-container{
   display: flex;
-
   align-items: center;
 }
 
@@ -180,7 +181,6 @@ justify-content: center;
 section p{
   text-align: justify;
 }
-
 
 .redes-container{
   display: flex;
