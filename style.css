@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(197,82,141,1) 40%, rgb(253, 240, 143) 100%);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+
+header h1 {
+  margin-left: 20px;
+}
+
+.sobre-mim{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blococentral {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  border: #000000;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+}
+
+img {
+  height: 500px;
+  width: 400px;
+  margin-right: 5px;
+}
+
+.instagram{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 160px;
+  height: 30px;
+  border-radius: 7px;
+}
+.instagram-logo{
+  width: 20px;
+  height: 20px;
+}
+
+.youtube{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+}
+.youtube-logo{
+  width: 23px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.spotify{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+}
+.spotify-logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.spotify-logo-vejamais{
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+  margin-left: 7px;
+}
+.email-logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.email-container{
+  display: flex;
+
+  align-items: center;
+}
+
+main section h2{
+  font-size: 30px;
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+
+.imagem-rubel{
+  margin-top: 40px;
+  margin-left: 175px;
+  margin-bottom: 40px;
+  border-radius: 3%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0);
+}
+
+main section ul li h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+
+}
+section ul li p{
+margin-top: 15px;
+margin-bottom: 15px;
+text-align: justify;
+}
+section ul li div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 110px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+section ul li div a{
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+section p{
+  text-align: justify;
+}
+
+
+.redes-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-container a{
+  margin-right: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+margin-top: 60px;
+}
+
+p2{
+font-size: 10px;
+}
